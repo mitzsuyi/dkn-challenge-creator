@@ -1,0 +1,21 @@
+{
+  "name": "dkn",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "embark test"
+  },
+  "author": "Mitz Suyi",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {},
+  "dependencies": {
+    "bloomer": "^0.6.3",
+    "bulma": "^0.7.1",
+    "ids": "^0.2.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "recompose": "^0.30.0",
+    "store": "^2.0.12"
+  }
+}

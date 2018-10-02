@@ -1,0 +1,66 @@
+{
+  "0xcf09906f8c279d7080568a74c660a474e187f67192be9577b1252f0df1e32edd": {
+    "contracts": {
+      "0x3043b04ad856d169c8f0b0509c0bc63192dc7edd92d6933c58708298a0e381be": {
+        "name": "ENSRegistry",
+        "address": "0x2e465c6170720cE7AF68Cfc0bDB4208fc28833D8"
+      },
+      "0xd954aba0fa7404fddabcf8021ecd68ba1a4b27908736d80cd2a822abc9433c18": {
+        "name": "Resolver",
+        "address": "0x2051D39a6220F6126c33DcfaCc72465b6b57cB5d"
+      },
+      "0x83716efe63d46ffa3c3c2f53806f2aef40aac51589692c6f45de525bc681dcf8": {
+        "name": "FIFSRegistrar",
+        "address": "0x92FD271DB21c6Fb633EC540E440fe3DcB3E60779"
+      }
+    }
+  },
+  "0xff9e9463638fcf22fa1dac23870b6feee05baf9e5e54f1ce2b0dee7482e5df73": {
+    "contracts": {
+      "0x3043b04ad856d169c8f0b0509c0bc63192dc7edd92d6933c58708298a0e381be": {
+        "name": "ENSRegistry",
+        "address": "0xB89D68FF60A00f867B797a9b337644E87a222bBA"
+      },
+      "0x0b2b9119faeec60e86fbb675c26797c687fcd733677e131d8e08feb55c5b863a": {
+        "name": "Resolver",
+        "address": "0x8B9AF00A6D29E7D687610E9dDB022c496DB551dE"
+      },
+      "0x442a51e6a1115b6a4f0af8e27d5c463fc0beafe38ad68ec0c87f8b372de44d0f": {
+        "name": "FIFSRegistrar",
+        "address": "0x1cc93CeDF04b000Ee36Ccd02E95f167C2f3afE0A"
+      }
+    }
+  },
+  "0xebef0a55ed631d3987ea5aebfb32095142d6e4b367b2603000f7559ca536b2e3": {
+    "contracts": {
+      "0x3043b04ad856d169c8f0b0509c0bc63192dc7edd92d6933c58708298a0e381be": {
+        "name": "ENSRegistry",
+        "address": "0x3e89acf2dBe97CF01428133898F9716DD64a4299"
+      },
+      "0xd9e2aa5282222a995b06719730125d60bf80b7f3d910d4abafa3aeefe8e2fef7": {
+        "name": "Resolver",
+        "address": "0xC8424B83b9A13e9B27dd884DDA23ee8F2120A386"
+      },
+      "0x63a68db506d2bf2a91d93743c7a907888549640602e16e00147680fc57a72d12": {
+        "name": "FIFSRegistrar",
+        "address": "0x0321b6E705a49feF431C56918046aDBd7e75A2B6"
+      }
+    }
+  },
+  "0x9a580be37e626ac1091c7a5cb773a2e4252d1c3b472dcd5902f7ab8dbc8009ed": {
+    "contracts": {
+      "0x3043b04ad856d169c8f0b0509c0bc63192dc7edd92d6933c58708298a0e381be": {
+        "name": "ENSRegistry",
+        "address": "0x04D45b51fe4f00b4478F8b0719Fa779f14c8A194"
+      },
+      "0x414c7bd53f6b6712ae96f540885849502195e047e5bd87ca5ab4597242f8bd70": {
+        "name": "Resolver",
+        "address": "0x10Aa1c9C2ad79b240Dc612cd2c0c0f5513bAfF28"
+      },
+      "0xe475a7d1aba293e5a4b97cae7af7c604c623ee0bb341336e1e30e25c6ba248e1": {
+        "name": "FIFSRegistrar",
+        "address": "0xd8a512EBD6fd82f44dFFD968EEB0835265497d20"
+      }
+    }
+  }
+}
