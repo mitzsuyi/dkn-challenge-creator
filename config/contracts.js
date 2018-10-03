@@ -33,10 +33,11 @@ module.exports = {
     ],
     gas: "auto",
     contracts: {
-      // example:
-      //SimpleStorage: {
-      //  args: [ 100 ]
-      //}
+      DKNToken: {
+        args: {
+          initial_balance: 1000
+        }
+      }
     }
   },
 

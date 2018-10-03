@@ -44,6 +44,10 @@
       "0x63a68db506d2bf2a91d93743c7a907888549640602e16e00147680fc57a72d12": {
         "name": "FIFSRegistrar",
         "address": "0x0321b6E705a49feF431C56918046aDBd7e75A2B6"
+      },
+      "0x4431dcff0418328d1e5182b633ea8fdae3fd7c328484c708e4ef6b0a9b01b8e2": {
+        "name": "DKNToken",
+        "address": "0xC39dF9B549a3Cb39E00C8Cdd0C178d81Fce62445"
       }
     }
   },
@@ -60,6 +64,10 @@
       "0xe475a7d1aba293e5a4b97cae7af7c604c623ee0bb341336e1e30e25c6ba248e1": {
         "name": "FIFSRegistrar",
         "address": "0xd8a512EBD6fd82f44dFFD968EEB0835265497d20"
+      },
+      "0x4431dcff0418328d1e5182b633ea8fdae3fd7c328484c708e4ef6b0a9b01b8e2": {
+        "name": "DKNToken",
+        "address": "0xf7dEF30e46B2A1cd8BC36Ce46957591E88D5863e"
       }
     }
   }
