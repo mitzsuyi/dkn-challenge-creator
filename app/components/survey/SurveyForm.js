@@ -3,7 +3,7 @@ import { Field,Level,LevelLeft,LevelRight,Tag, Button, Help, Label, Input, Contr
 import SurveyQuestions from './SurveyQuestions'
 import {withState, withProps, compose, withHandlers} from 'recompose'
 
-const SurveyForm = ({survey, submissionFee, isValidSurvey, tokensRewarded, participantSize, isValid, setSurveyProp, updateQuestions, submitSurvey})=> <Container >            
+const SurveyForm = ({survey, submissionFee, balanceSufficient, isValidSurvey, tokensRewarded, participantSize, isValid, setSurveyProp, updateQuestions, doneEditing})=> <Container >            
     <Field>
        <Label>Survey Name</Label>
        <Control> 
@@ -31,10 +31,13 @@ const SurveyForm = ({survey, submissionFee, isValidSurvey, tokensRewarded, parti
     <Control>
       <Level>
         <LevelLeft>
-          <Button isStatic={!isValidSurvey} onClick={()=> submitSurvey() } isColor='success'>Submit</Button>
+          <Button isStatic={!isValidSurvey} onClick={()=> doneEditing() } isColor='success'>Done</Button>
         </LevelLeft>
        { isValidSurvey && <LevelRight>
           <Tag>submission fee {submissionFee} tokens</Tag>
+          {!balanceSufficient &&
+           <Tag isColor="danger">Balance insufficient</Tag>
+          }
         </LevelRight>
       }  
       </Level>
@@ -47,7 +50,11 @@ const enhance = compose(
   withState("participantSize", "setParticipantSize", 0),
   withState("tokensRewarded", "setTokensRewarded", 0),
   withState("questions", "setQuestions", []),
-  withProps(({survey})=>({submissionFee: survey.submissionFee(), isValidSurvey: survey.isValid()})),
+  withProps(({survey, hasEnoughBalance})=>({
+    submissionFee: survey.submissionFee(), 
+    isValidSurvey: survey.isValid(),
+    balanceSufficient: hasEnoughBalance(survey.submissionFee())
+  })),
   withHandlers({
       setSurveyProp: props => (prop, updater) => evt => { 
         const value = evt.target.value;

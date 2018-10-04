@@ -70,5 +70,25 @@
         "address": "0xf7dEF30e46B2A1cd8BC36Ce46957591E88D5863e"
       }
     }
+  },
+  "0x70103756501bbcf13c8a41fee6d8c012caf0619d367442a231c7db841ad249ad": {
+    "contracts": {
+      "0x4431dcff0418328d1e5182b633ea8fdae3fd7c328484c708e4ef6b0a9b01b8e2": {
+        "name": "DKNToken",
+        "address": "0x200bDFB4C9Ffd3939A1c52EBE033234265508863"
+      },
+      "0x3043b04ad856d169c8f0b0509c0bc63192dc7edd92d6933c58708298a0e381be": {
+        "name": "ENSRegistry",
+        "address": "0x72598dfc3a8D2AcF421c9635501f70E134480838"
+      },
+      "0x82c9f99a65d44df10dd7815892fd9f72a590f2fdc0208930b925fd467c665d7b": {
+        "name": "Resolver",
+        "address": "0x9f4C2c7fAB53FCB8815D44770576B6ff7bc539E3"
+      },
+      "0x19b75ea6b4c45e818cf3d3000cfb72cc63f1e775dd5c65ac1f4f613d44c234f8": {
+        "name": "FIFSRegistrar",
+        "address": "0x43AFb47f4e3fE7488d0d6Ac13A68A7DaE1064E9D"
+      }
+    }
   }
 }

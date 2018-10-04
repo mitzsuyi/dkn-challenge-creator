@@ -11,7 +11,6 @@ const setError = function(err){
 }
 
 const enhance=compose(
-  withState("accountBalance","setAccountBalance", ""), 
   withState("accounts","setAccounts", []), 
   withState("currentAccount","setCurrentAccount", undefined), 
   withState("error","setError", ""), 
